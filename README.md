@@ -15,11 +15,11 @@ The spreadsheets are divided into two halves. The left half is used for data col
 
 Radiographic
 ------------
-MUSCGenForm.xlsx is used for testing radiographic and portable units. It is largely unmodified (aside from changing radiation exposure units) from the version originally developed by Phil Rauch at Henry Ford Hospital.
+MUSCGenForm.xlsx is used for testing radiographic and portable units. It is adapted from a version originally developed by Phil Rauch at Henry Ford Hospital.
 
 Fluoroscopy
 -----------
-MUSCCArm.ods is used for testing fluoroscopy units (portable c-arms, fixed fluoroscopy, interventional, cath lab).
+MUSCCArm.xlsx is used for testing fluoroscopy units (portable c-arms, fixed fluoroscopy, interventional, cath lab).
 
 Mammography
 -----------
@@ -27,29 +27,27 @@ Due to significant differences between various FFDM mammography manufacturers, s
 
 The mammography spreadsheets have the same basic structure, although each is tweaked slightly to reflect differences in QA/QC tests required by each manufacturer.
 
-MUSCMammoStereotactic.ods is used for stereotactic breast biopsy units
+MUSCMammoStereotactic.xlsx is used for stereotactic breast biopsy units
 
-MUSCMammoHologic.ods is used for Hologic Selenia systems with Mo and W targets, and can also be used for Hologic systems with the tomosynthesis option (Selenia Dimensions).
+MUSCMammoHologic.xlsx is used for Hologic Selenia systems with Mo and W targets, and can also be used for Hologic systems with the tomosynthesis option (Selenia Dimensions).
 
-MUSCMammoSiemens.xlsm is used for Siemens Inspiration mammography units. Major differences include additional sections for W/Rh output measurement and a different method for calculating AGD.
+MUSCMammoSiemens.xlsx is used for Siemens Inspiration mammography units. Major differences include additional sections for W/Rh output measurement and a different method for calculating AGD.
 
 Mammography workstation monitors
 --------------------------------
-MUSCMammoMonitor.ods is used to for testing of mammography workstation monitors. The spreadsheet is designed around the procedures for Agfa Impax workstations.
-
-Currently still in beta status.
+MUSCMammoMonitor.xlsx is used to for testing of mammography workstation monitors. The spreadsheet is designed around the procedures for Agfa Impax workstations.
 
 CT
 --
-Used for CT scanners. CTDI section is designed to make use of the RTI Electronics CT16 slice probe.
+MUSCCT.xlsx is Used for CT scanners. CTDI section is designed to make use of the RTI Electronics CT slice probe.
 
-MUSCBoneDensity.ods
+MUSCBoneDensity.xlsx
 -------------------
 Used for scatter radiation measurements of bone density units.
 
 Dental CT
 ---------
-MUSCDentalCT.ods is used for testing cone beam dental CT units.
+MUSCDentalCT.xlsx is used for testing cone beam dental CT units.
 
 Currently in alpha status
 
@@ -64,6 +62,3 @@ Currently under redevelopment.
 Survey summary sheet
 ------------------
 MUSCSurveySummary.ott is a LibreOffice template used to list the recommendations from a survey.
-
-
-
